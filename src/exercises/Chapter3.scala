@@ -1,6 +1,5 @@
 package exercises
 
-import collection.mutable
 import util.Random
 
 object Chapter3 extends App {
