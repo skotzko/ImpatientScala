@@ -1,8 +1,6 @@
 package exercises
 
-import java.io.File
-import java.util.Scanner
-import scala.collection.immutable.{HashMap, ListMap}
+import scala.collection.immutable.ListMap
 import io.Source
 import scala.collection.mutable
 
@@ -105,9 +103,9 @@ object Chapter4 extends App {
   // 8
   println("\n\nExercise 8")
 
-  def minmax(values: Array[Int]) = (values.min, values.max)
+  def minMax(values: Array[Int]) = (values.min, values.max)
 
-  println(minmax(Array(2,1,-2,9,12)))
+  println(minMax(Array(2,1,-2,9,12)))
 
 
   // 9
@@ -126,8 +124,5 @@ object Chapter4 extends App {
   println("\n\nExercise 10")
   println("Hello".zip("World"))
   // hmm... salting passwords? something else crypto-related?
-
-  //  //9. Write a function lteqgt(values: Array[Int], v: Int) that returns a triple containing the counts of values less
-  //  // than v, equal to v, and greater than v.
 
 }
