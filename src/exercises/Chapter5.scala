@@ -11,7 +11,7 @@ object Chapter5 extends App {
     private var value = Int.MaxValue - 1
     def increment() {if (value + 1 > value) value += 1}
     def current = value
-    override def toString() = "Counter:" + value
+    override def toString = "Counter:" + value
   }
 
   println("\n\nExercise 1")
@@ -210,15 +210,8 @@ object Chapter5 extends App {
     println(e)
     println(e2)
 
-    // I prefer this approach to the 2-ctor approach.
+    // I prefer this approach to the 2-ctor approach. To me it's a little more clear.
   }
 
 
 }
-
-//9. Reimplement the class of the preceding exercise in Java, C#, or C++ (your choice). How much shorter is the Scala class?
-
-
-//10. Consider the class
-//class Employee(val name: String, var salary: Double) { def this() { this("John Q. Public", 0.0) }}
-//Rewrite it to use explicit fields and a default primary constructor. Which form do you prefer? Why?
