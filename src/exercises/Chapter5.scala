@@ -1,5 +1,3 @@
-package exercises
-
 import javax.print.attribute.standard.PrinterMoreInfoManufacturer
 
 import scala.util.Random

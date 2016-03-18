@@ -1,5 +1,3 @@
-package exercises
-
 import BigInt.probablePrime
 import util.Random
 

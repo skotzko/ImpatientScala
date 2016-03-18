@@ -1,5 +1,3 @@
-package exercises
-
 import util.Random
 
 object Chapter3 extends App {

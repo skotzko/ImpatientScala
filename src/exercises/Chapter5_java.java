@@ -1,5 +1,3 @@
-package exercises;
-
 public class Chapter5_java {
 //    java implementation of Chapter5.Car, #8, Car class
     public static class Car {

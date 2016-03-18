@@ -1,5 +1,3 @@
-package exercises
-
 import scala.collection.immutable.ListMap
 import io.Source
 import scala.collection.mutable

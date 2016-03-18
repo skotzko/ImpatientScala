@@ -1,5 +1,3 @@
-package exercises
-
 object Chapter2 extends App {
 
   // 1
