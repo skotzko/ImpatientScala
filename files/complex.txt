@@ -1,0 +1,4 @@
+"lots of quoting and \ \ \\\ in this guy"
+this shouldn't show up
+another "quoted one \ did the whole line show? it shouldn't say 'another' before this"
+this shouldn't show up
